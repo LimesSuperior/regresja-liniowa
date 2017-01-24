@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    reglib.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    reglib.h
 
 FORMS    += mainwindow.ui
